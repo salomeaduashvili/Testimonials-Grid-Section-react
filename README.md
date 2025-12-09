@@ -33,7 +33,7 @@ App.jsx
 ## 🚀 URL/Live page:
 
 - Deployed on Vercel.
-- Link:
+- Link: https://testimonials-grid-section-react-eta.vercel.app/
 
 ---
 
