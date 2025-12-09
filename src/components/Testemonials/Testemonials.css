@@ -1,0 +1,166 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.4rem;
+  max-width: 70rem;
+}
+
+.testimonial {
+  padding: 2.6rem 3.2rem;
+  border-radius: 8px;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+}
+
+.danieltest {
+  background-color: #733fc8;
+  background-image: url(/public/images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 2.4rem;
+}
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  gap: 1.7rem;
+}
+
+.profile-pic {
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+}
+
+.daniel {
+  border: solid 2px #a775f1;
+}
+
+.testimonial-header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  color: #fff;
+  font-weight: 500;
+  font-stretch: semi-condensed;
+  line-height: 1;
+}
+
+.profile-name {
+  font-size: 1.3rem;
+}
+
+.verified {
+  opacity: 0.5;
+  font-size: 1.1rem;
+}
+
+.testimonial-quote {
+  font-size: 2rem;
+  font-weight: 600;
+  font-stretch: semi-condensed;
+  color: #fff;
+  margin-top: 1.8rem;
+}
+
+.testimonial-text {
+  margin-top: 4rem;
+  opacity: 0.7;
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-stretch: semi-condensed;
+  line-height: 1.38;
+  color: #cfcfcf;
+}
+
+.jonathan-test {
+  background-color: #48556a;
+}
+
+.patrick-text,
+.jonathan-text {
+  color: #fff;
+  margin-top: 1.6rem;
+}
+
+.kira-test,
+.jeanette-test {
+  background-color: #fff;
+}
+
+.kira-name,
+.jeanette-name {
+  color: #48556a;
+}
+
+.kira-verified,
+.jeanette-verified {
+  color: #48556a;
+}
+
+.kira-quote,
+.jeanette-quote {
+  color: #48556a;
+}
+
+.kira-text,
+.jeanette-text {
+  margin-top: 1.6rem;
+  color: #48556a;
+}
+
+.patrick-test {
+  background-color: #19202d;
+}
+
+.patrick {
+  border: solid 2px #733fc8;
+}
+
+.patrick-quote {
+  color: #ecf2f8;
+}
+
+@media screen and (min-width: 90rem) {
+  main {
+    display: grid;
+    grid-template-rows: 28.2rem 26.6rem;
+    grid-template-columns: repeat(4, 25.5rem);
+    max-width: unset;
+    gap: 3rem;
+  }
+
+  .danieltest {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+
+  .jonathan-test {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+  .jeanette-test {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .patrick-test {
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+
+  .kira-test {
+    grid-column: 4/5;
+    grid-row: 1/3;
+  }
+
+  .testimonial-text {
+    margin-top: 1.6rem;
+  }
+
+  .jeanette-text,
+  .patrick-text,
+  .kira-text {
+    margin-top: 2.4rem;
+  }
+}
